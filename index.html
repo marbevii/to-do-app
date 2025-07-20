@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <title>Bevi's to do app</title>
+    <!--<link rel="favicon" href=""> When the design is made, set the favicon-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bevi's To Do APP</h1>
+
+    <h1 align="center">Bevi's To Do APP</h1>
+
+    <form id="task-form">
+        <input type="text" id="task-input" name="task" placeholder="Write your task here..." required><br>
+        <input type="submit" value="Add task"><br>
+
+        <ul id="task-list">
+            <li></li>
+        </ul>
+    </form>
+
+    <script src="app.js"></script>
 </body>
 </html>

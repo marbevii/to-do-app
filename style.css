@@ -1,0 +1,33 @@
+body {
+    background-color: turquoise;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+    color: white;
+}
+
+input {
+    background-color: aqua;
+    padding-right: 2px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    border: 2px solid black;
+}
+
+li {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: gray;
+}
